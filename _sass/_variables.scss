@@ -65,13 +65,7 @@ $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
 $info-color                 : #52adc8;
-// table
-$table-text-color:      $text-color !default;
-$table-zebra-color:     lighten($background-color, 4%) !default;
-$table-header-bg-color: lighten($background-color, 10%) !default;
-$table-header-border:   lighten($background-color, 21%) !default;
-// $border-color-01:       $brand-color-dark !default;
-// $table-border-color:    $border-color-01 !default; 
+
 
 /* brands */
 $behance-color              : #1769FF;
@@ -158,3 +152,11 @@ $box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
+
+// table
+$table-text-color:      $text-color !default;
+$table-zebra-color:     lighten($background-color, 4%) !default;
+$table-header-bg-color: lighten($background-color, 10%) !default;
+$table-header-border:   lighten($background-color, 21%) !default;
+// $border-color-01:       $brand-color-dark !default;
+// $table-border-color:    $border-color-01 !default; 
