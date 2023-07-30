@@ -320,12 +320,17 @@ table {
   text-align: left;
   color: $table-text-color;
   border-collapse: collapse;
-  border: 0px;
-
+  border: 0px solid $table-border-color;
+  tr {
+    &:nth-child(even) {
+      background-color: $table-zebra-color;
+    }
+  }
   th {
-    border: 0px;
+    background-color: $table-header-bg-color;
+    border: 0px solid $table-header-border;
   }
   td {
-    border: 0px;
+    border: 0px solid $table-border-color;
   }
 }
