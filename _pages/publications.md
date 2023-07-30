@@ -5,11 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!-- <style>
+<style>
 table, th, td {
   border: 0;
 }
-</style> -->
+</style>
 
 <script>
 function showhide(d) {

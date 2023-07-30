@@ -315,22 +315,22 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 
-table {
-  width: 100%;
-  text-align: left;
-  color: $table-text-color;
-  border-collapse: collapse;
-  border: 0px solid $table-border-color;
-  tr {
-    &:nth-child(even) {
-      background-color: $table-zebra-color;
-    }
-  }
-  th {
-    background-color: $table-header-bg-color;
-    border: 0px solid $table-header-border;
-  }
-  td {
-    border: 0px solid $table-border-color;
-  }
-}
+// table {
+//   width: 100%;
+//   text-align: left;
+//   color: $table-text-color;
+//   border-collapse: collapse;
+//   border: 0px solid $table-border-color;
+//   tr {
+//     &:nth-child(even) {
+//       background-color: $table-zebra-color;
+//     }
+//   }
+//   th {
+//     background-color: $table-header-bg-color;
+//     border: 0px solid $table-header-border;
+//   }
+//   td {
+//     border: 0px solid $table-border-color;
+//   }
+// }
