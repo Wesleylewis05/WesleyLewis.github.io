@@ -7,7 +7,7 @@ author_profile: true
 
 <style>
 table, th, td {
-  border: 0;
+  border: 0px;
 }
 </style>
 
