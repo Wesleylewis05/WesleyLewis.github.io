@@ -76,7 +76,7 @@ del a {
 
 /* reduce orphans and widows when printing */
 
-p, pre, blockquote, ul, ol, dl, figure, fieldset {
+p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
   orphans: 3;
   widows: 3;
 }
@@ -312,39 +312,4 @@ nav {
 b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
-}
-
-/**
- * Tables
- */
- table {
-  margin-bottom: 30px / 2;
-  width: 100%;
-  text-align: $table-text-align;
-  color: $table-text-color;
-  border-collapse: collapse;
-  border: 0px solid $table-border-color;
-  tr {
-    &:nth-child(even) {
-      background-color: $table-zebra-color;
-    }
-  }
-  th, td {
-    /*padding: ($spacing-unit / 3) ($spacing-unit / 2);*/
-    padding: ($spacing-unit / 1.5) ($spacing-unit / 2) 0;
-  }
-  th {
-    background-color: $table-header-bg-color;
-    border: 0px solid $table-header-border;
-  }
-  td {
-    border: 0px solid $table-border-color;
-  }
-
-  @include media-query($on-laptop) {
-    display: block;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-            -ms-overflow-style: -ms-autohiding-scrollbar;
-  }
 }
