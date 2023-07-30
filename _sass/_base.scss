@@ -315,10 +315,9 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 }
 
 
-
 table {
   width: 100%;
-  text-align: $table-text-align;
+  text-align: left;
   color: $table-text-color;
   border-collapse: collapse;
   border: 0px solid $table-border-color;
