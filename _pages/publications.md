@@ -5,7 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h4><a href="https://scholar.google.com/citations?user=Eb7kGtkAAAAJ&hl=en">Google Scholar</a></h4>
+<style>
+table, th, td {
+  border: 0;
+}
+</style>
 
 <script>
 function showhide(d) {
