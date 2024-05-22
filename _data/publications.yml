@@ -21,3 +21,27 @@
   awards: 
   video: 
   pdf: https://arxiv.org/pdf/2210.04941.pdf
+
+
+title: "RoboCAP: Robotic Classification and Precision Pouring of Diverse Liquids and Granular Media with Capacitive Sensing"
+  authors: Yexin Hu*, Alexandra Gillespie*, Akhil Padmanabha, Kavya Puthuveetil, Wesley Lewis, Karan Khokar, Zackory Erickson
+  year: 2024
+  type: conference
+  venue: Under Review
+  image: /images/robocap.png
+  id: hu2024robocap
+  projectpage: https://sites.google.com/view/capsense/home
+  code: https://github.com/RCHI-Lab/cap-liquid-sensing
+  bibtex: |
+      @misc{hu2024robocap,
+      title={RoboCAP: Robotic Classification and Precision Pouring of Diverse Liquids and Granular Media with Capacitive Sensing}, 
+      author={Yexin Hu and Alexandra Gillespie and Akhil Padmanabha and Kavya Puthuveetil and Wesley Lewis and Karan Khokar and Zackory Erickson},
+      year={2024},v
+      eprint={2405.07423},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+        }   
+  abstract: "Liquids and granular media are pervasive throughout human environments, yet remain particularly challenging for robots to sense and manipulate precisely. In this work, we present a systematic approach at integrating capacitive sensing within robotic end effectors to enable robust sensing and precise manipulation of liquids and granular media. We introduce the parallel-jaw RoboCAP Gripper with embedded capacitive sensing arrays that enable a robot to directly sense the materials and dynamics of liquids inside of diverse containers, including some visually opaque. When coupled with model-based control, we demonstrate that the proposed system enables a robotic manipulator to achieve state-of-the-art precision pouring accuracy for a range of substances with varying dynamics properties. Code, designs, and build details are available on the project website."
+  awards: 
+  video: https://www.youtube.com/watch?v=f-c5IP5KklU
+  pdf: https://arxiv.org/pdf/2405.07423
