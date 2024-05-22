@@ -23,12 +23,12 @@
   pdf: https://arxiv.org/pdf/2210.04941.pdf
 
 
-title: "RoboCAP: Robotic Classification and Precision Pouring of Diverse Liquids and Granular Media with Capacitive Sensing"
+- title: "RoboCAP: Robotic Classification and Precision Pouring of Diverse Liquids and Granular Media with Capacitive Sensing"
   authors: Yexin Hu*, Alexandra Gillespie*, Akhil Padmanabha, Kavya Puthuveetil, Wesley Lewis, Karan Khokar, Zackory Erickson
   year: 2024
   type: conference
   venue: Under Review
-  image: /images/robocap.png
+  image: /images/robocap2.png
   id: hu2024robocap
   projectpage: https://sites.google.com/view/capsense/home
   code: https://github.com/RCHI-Lab/cap-liquid-sensing
